@@ -2,6 +2,7 @@ p{
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: italic;
     font-weight:bold;
+    /* clear: left; */
 }
 
 h1{
@@ -12,4 +13,5 @@ h1{
     /* text-align: left;
     text-align: right;
     text-align: justify; */
+    float: left;
 }
