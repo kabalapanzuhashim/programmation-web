@@ -2,8 +2,30 @@
 h1{
     text-align: center;
     color: teal;
-    background-color: rgba(0, 128, 128, 0.1);
+    border: 2px black solid;
+    /* type de bordure */
+    /* dotted =pointulle */
+    /* dashed =tiré*/
+    /* groove */
+    /* inset */
+    /* outset */
+    /* double */
 }
-p{
-    opacity: 0.2;
+h2{
+    text-align: center;
+    border: 3px black solid;
+    border-radius: 7px;
+    color: teal;
+}
+h3{
+    border: 3px black solid;
+    box-shadow: 7px 10px 4px black;
+    text-align: center;
+    color: teal;
+}
+h4{
+    border: 3px black solid;
+    text-shadow: 10px 10px 4px black;
+    text-align: center;
+    color: teal;
 }
