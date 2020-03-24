@@ -1,31 +1,26 @@
-
 h1{
     text-align: center;
     color: teal;
-    border: 2px black solid;
-    /* type de bordure */
-    /* dotted =pointulle */
-    /* dashed =tiré*/
-    /* groove */
-    /* inset */
-    /* outset */
-    /* double */
 }
-h2{
-    text-align: center;
-    border: 3px black solid;
-    border-radius: 7px;
+a{
+    color: rgb(37, 46, 45);
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    color: teal;
+    text-decoration: underline;
+}
+h2:hover{
     color: teal;
 }
-h3{
-    border: 3px black solid;
-    box-shadow: 7px 10px 4px black;
-    text-align: center;
-    color: teal;
+a:active{
+    color: tomato;
 }
-h4{
-    border: 3px black solid;
-    text-shadow: 10px 10px 4px black;
-    text-align: center;
-    color: teal;
+p{
+    color: rgb(37, 46, 45);
+    font-size: 20px;
+}
+a:visited{
+    color: red;
 }
